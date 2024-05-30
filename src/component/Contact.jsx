@@ -35,7 +35,7 @@ export default function contactUs(){
                 <div className="flex flex-col space-y-2">
                   <input 
                     className="w-full p-2 bg-transparent border-b border-gray-500 text-gray-200 placeholder-gray-500 focus:border-gray-200 focus:outline-none" 
-                    type='text' 
+                  type={Text} 
                     placeholder="NAME" 
                     defaultValue="" 
                   />
