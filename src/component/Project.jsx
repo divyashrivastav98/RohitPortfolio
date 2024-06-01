@@ -9,7 +9,7 @@ export default function Project(){
         <Navbar/>
         <section id="projects">
             <h1 className="text-white font-extrabold text-4xl items-center flex justify-center mb-10 gap-3">Projects</h1>
-            <div className="flex">
+            <div className="flex justify-center items-center">
                 <div className="w-[400px] h-[600px] ml-28  max-h-[600px]  ml-10">
                     <div class="project-container project-card p-8 bg-white rounded-lg shadow-md">
                         <img
