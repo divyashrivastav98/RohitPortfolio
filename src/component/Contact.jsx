@@ -7,12 +7,12 @@ export default function contactUs(){
         <>
         <Navbar/>
         
-        <div className="flex min-h-screen  justify-center  item-center bg-gradient-to-r from-pink-500 to-red-400">
+        <div className="flex min-h-screen  justify-center  item-center bg-gradient-to-r from-black to-gray-400">
       
                 <form className=" border-4 w-[800px] h-[600px] border-black p-6 mt-10 rounded-lg shadow-lg">
-                  <h2 className="text-2xl font-bold mb-4 text-center">Contact Me!</h2>
+                  <h2 className="text-2xl font-bold text-white mb-4 text-center">Contact Me!</h2>
                   <div className="mb-4">
-                    <label className="block text-black mb-2">First name</label>
+                    <label className="block text-white mb-2">First name</label>
                     <input
                       type="text"
                       placeholder="First Name"
@@ -21,7 +21,7 @@ export default function contactUs(){
                     />
                   </div>
                   <div className="mb-4">
-                    <label className="block text-black mb-2">Last name</label>
+                    <label className="block text-white mb-2">Last name</label>
                     <input
                       type="text"
                       placeholder="Last Name"
@@ -30,7 +30,7 @@ export default function contactUs(){
                     />
                   </div>
                   <div className="mb-4">
-                    <label className="block text-black mb-2">Email</label>
+                    <label className="block text-white mb-2">Email</label>
                     <input
                       type="email"
                       placeholder="abc@xyz.com"
@@ -39,7 +39,7 @@ export default function contactUs(){
                     />
                   </div>
                   <div className="mb-4">
-                    <label className="block text-black mb-2">Contact No</label>
+                    <label className="block text-white mb-2">Contact No</label>
                     <input
                       type="number"
                       placeholder="Phone Number"
