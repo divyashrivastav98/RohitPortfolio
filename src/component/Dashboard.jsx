@@ -8,6 +8,7 @@ import TW from '../assets/logos/TW.png'
 import Navbar from "./Navbar"
 import CV from "../assets/cv.pdf"
 
+
 export default function Dashboard(){
     return(
         
@@ -54,7 +55,8 @@ export default function Dashboard(){
                             </div>
                          </div>
                        </div>
+                       
              </div>
-
+ 
     )
 }
