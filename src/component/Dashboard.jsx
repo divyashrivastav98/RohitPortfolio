@@ -35,11 +35,11 @@ export default function Dashboard(){
                         <div className='bg-black w-full  flex content-evenly'>
                             <div className='text-center text-white font-extrabold'>
                                 <img src={REACT} alt='react'/>
-                                <h2>React</h2>
+                                <h2>ReactJS</h2>
                                 </div>
                                 <div className='text-center text-white font-extrabold'>
                                 <img src={JS} alt='javascript'/>
-                                <h2>Javascript</h2>
+                                <h2>JavaScript</h2>
                                 </div>
                                 <div className='text-center text-white font-extrabold'>
                                 <img src={TW} alt='tailwind'/>
